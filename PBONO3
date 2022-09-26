@@ -1,0 +1,36 @@
+Fitur Terbaru dan kelebihannya sebagai berikut
+
+1. Project Jigsaw
+Project Jigsaw atau Platform Module System adalah sistem modular yang memberikan kemampuan mirip dengan sistem framework OSGi. Sedikit informasi, OSGi adalah framework Java yang digunakan untuk mengembangkan dan menyebarkan modular dari program dan pustaka.
+
+2. Try-With-Resource
+Fitur ini adalah fitur yang memungkinkan developer untuk mengelola sumber daya secara otomatis. Adanya fitur ini membuat developer tidak perlu lagi menutup sumber daya seperti file, koneksi, jaringan, dan lain sebagainya secara eksplisit, Try-With-Resource secara otomatis dengan menggunakan antarmuka AutoClosable.
+
+3. Interface Private Methods
+Interface Private Methods atau Medoe Antarmuka Pribadi adalah sebuah metode untuk menjadikan antarmuka menjadi tersembunyi atau pribadi. Antarmuka ini memungkinkan kita untuk mendeklarasikan metode privat yang membantu berbagi kode umum di antara metode non-abstrak.
+Pada Java 8, developer hanya dapat menyediakan implementasi metode di antarmuka menggunakan metode default dan statis. Namun, tidak dapat membuat metode privat di antarmuka.
+
+4. @SafeVarargs Annotation
+@SafeVarargs adalah anotasi yang diterapkan pada metode atau konstruktor yang menggunakan parameter varargs. Fitur ini digunakan untuk memastikan bahwa metode tersebut tidak melakukan operasi yang tidak aman pada parameter varargnya.
+Sama seperti Java 7, anotasi ini hanya dapat diterapkan pada, metode terakhir, metode statis, dan konstruktor.
+
+4. @SafeVarargs Annotation
+@SafeVarargs adalah anotasi yang diterapkan pada metode atau konstruktor yang menggunakan parameter varargs. Fitur ini digunakan untuk memastikan bahwa metode tersebut tidak melakukan operasi yang tidak aman pada parameter varargnya.
+
+6. Jshell atau Java Shell (REPL)
+Oracle Corp telah memperkenalkan alat baru yang disebut Jshell yang merupakan singkatan dari Java Shell dan juga dikenal sebagai REPL (Read Evaluate Print Loop). Ini adalah alat Java Shell interaktif, memungkinkan kita untuk mengeksekusi kode Java dari shell.
+
+7. Stream API Improvement
+Stream API di Java 9 telah mengalami peningkatan dan metode baru ditambahkan ke antarmuka Stream. TakeWhile, dropWhile dan ofNullable, dan satu metode iterasi yang kelebihan beban ditambahkan untuk melakukan operasi pada elemen aliran. Untuk informasi lebih lanjut klik disini.
+
+8. Diagnostic Commands
+Java 9 telah menambahkan beberapa perintah baru untuk memperbaiki masalah diagnosis. Perintah diagnostik ini digunakan untuk mendiagnosis Hotspot dan JDK. Utilitas Java jcmd dapat digunakan untuk mengirim permintaan perintah diagnostik ke Java Virtual Machine (JVM) yang sedang berjalan.
+
+9. Process API Improvement
+Java SE 9 hadir dengan beberapa peningkatan dalam Process API. Mereka telah menambahkan beberapa kelas dan metode baru untuk memudahkan pengendalian dan pengelolaan proses OS.
+
+Fitur lain dan Perubahan nya:
+1. Menambahkan template untuk kelas Controller.
+2. Menambahkan kemampuan untuk melengkapi struktur secara otomatis dalam kueri SQL.
+3. Kompiler Java bawaan NetBeans nb-javac (javac yang dimodifikasi) telah diperbarui ke versi 18.
+4. Peningkatan dukungan untuk sistem pembangunan Maven.
